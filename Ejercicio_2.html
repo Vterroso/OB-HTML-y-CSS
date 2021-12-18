@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 HTML OB</title>
+</head>
+<body>
+
+    <form id="formulario1" action="recibeform.html"
+    method="post" style ="border: 1px rgb(0, 0, 0) solid; margin: 30px; padding: 30px;background-color: cadetblue;">
+
+    <h2>FORMULARIO</h2>
+
+    <fieldset>
+        <legend>Introduzca sus datos</legend>
+
+        <div>
+            <input id="formulario1_nombre" name="nombre" pattern="[A-Za-z0-9]+" required type="text" placeholder="Introduce nombre"/>
+            <p></p>
+            <input id="formulario1_apellido" name="apellido" pattern="[A-Za-z0-9]+" required type="text" placeholder="Introduce apellido"/>
+            <p></p>
+            <input id="formulario1_email" name="email" required type="text" placeholder="Introduce email"/>
+            <p></p>
+            <input type="tel" name="teléfono" required type="tel" placeholder="Introduce teléfono"/>
+            <p></p>
+            <input id="formulario1_dirección" name="dirección" required type="text" placeholder="Introduce dirección"/>
+            <p></p>
+        </div>
+    
+        <div>
+          <input type="submit" value="Enviar formulario" />
+        </div>
+
+    </fieldset>
+
+    </form>
+
+    <table border="2">
+        <tfoot>
+          <tr>
+            <td>Pie de tabla 1</td>
+            <td>Pie de tabla 2</td>
+            <td>Pie de tabla 3</td>
+            <td>Pie de tabla 4</td>
+
+          </tr>
+        </tfoot>
+        
+        <thead>
+          <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Celda 1</td>
+            <td rowspan="2">Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+          </tr>
+          <tr>
+            <td>Celda 1</td>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+          </tr>
+          <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td colspan="2">Celda 3</td>
+          </tr>
+                
+        </tbody>
+        <caption>
+          Título de la tabla
+        </caption>
+      </table>
+
+</body>
+</html>
