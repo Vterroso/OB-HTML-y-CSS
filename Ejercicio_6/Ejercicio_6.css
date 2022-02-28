@@ -1,0 +1,17 @@
+
+
+p {
+    color: red;
+}
+
+.miparrafo {
+    color: blue;
+}
+
+#div1 p {
+    color: brown;
+}
+
+#div2 .miparrafo {
+    color: aqua;
+}
