@@ -1,0 +1,45 @@
+
+
+.responsive{
+    background-color:red;
+    width: 800px;
+    height: 500px;
+}
+
+
+@media screen AND (max-width:640px) {
+    .responsive{
+        background-color: green;
+    }
+    
+}
+
+.contenedor{
+    width: 600px;
+    height: 400px;
+}
+
+.contenedor video {
+
+    width: 600px;
+    position: relative;
+}
+
+.contenedor picture{
+    width: 600px;
+    position: relative;
+
+}
+
+
+@media screen and (max-width:600px){
+    .contenedor video{
+    display:none;
+    }    
+}
+
+@media screen and (min-width:600px){
+    .contenedor picture{
+        display: none;
+    }       
+}
