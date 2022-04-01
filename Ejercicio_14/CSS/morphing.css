@@ -1,0 +1,176 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Consensed', sans-serif;
+  font-weight: 500;
+}
+
+.morphing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  font-size: 40px;
+  background-color: black;
+  color: aqua;
+  min-height: 100vh;
+  -webkit-filter: contrast(2) blur(1px);
+          filter: contrast(2) blur(1px);
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.word {
+  position: absolute;
+  top: 50%;
+  -webkit-animation: word 15s infinite ease-in-out;
+          animation: word 15s infinite ease-in-out;
+}
+
+:nth-child(1) {
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
+}
+
+@-webkit-keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+
+@keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+
+:nth-child(2) {
+  -webkit-animation-delay: -13.125s;
+          animation-delay: -13.125s;
+}
+
+@keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+
+:nth-child(3) {
+  -webkit-animation-delay: -11.25s;
+          animation-delay: -11.25s;
+}
+
+@keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+
+:nth-child(4) {
+  -webkit-animation-delay: -9.375s;
+          animation-delay: -9.375s;
+}
+
+@keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+
+:nth-child(5) {
+  -webkit-animation-delay: -7.5s;
+          animation-delay: -7.5s;
+}
+
+@keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+
+:nth-child(6) {
+  -webkit-animation-delay: -5.625s;
+          animation-delay: -5.625s;
+}
+
+@keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+
+:nth-child(7) {
+  -webkit-animation-delay: -3.75s;
+          animation-delay: -3.75s;
+}
+
+@keyframes word {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(1em);
+            filter: blur(1em);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=morphing.css.map */
